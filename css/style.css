@@ -137,12 +137,11 @@
   --color-7: #ca6702;
   --color-8: #bb3e03;
   --color-9: #ae2012;
-  --color-10: #9b2226;
+  --color-91: #9b2226;
 }
 
 body{
   font-family: serif;
-  background-color:var(--color-5)
 }
 
 body h1 {
@@ -165,7 +164,7 @@ body h1 {
   text-transform: uppercase;
 }
 .link:hover{
-  color: var(--color-3);
+  color:var(--color-8);
 }
 
 /* from table-cell */
@@ -174,108 +173,116 @@ body h1 {
   width: 1400px;
   padding: 30px 0;
   margin: 0 auto;
-  background-color: #eeeeee;
+  background-color:var(--color-4)
 }
 
-.one,
-.two,
-.there,
-.fore {
+.one, .two, .there, .fore {
   width: 1000px;
   /* height: 250px; */
   margin: 0 auto;
-  background-color: #277da1;
-  outline: 6px solid #f9c74f;
+  outline: 4px solid var(--color-1);
+  max-height: 300px;
 }
 
-.one > div {
+.one-a {
   width: 1000px;
-  /* padding: 30px 0; */
   display: table-cell;
-  outline: 6px solid #f94144;
-  background-color: #90be6d;
-  font-size: 28px;
+  outline: 4px dashed var(--color-91);
+  background-color: var(--color-5);
   height: auto;
+  font-size: 130px;
 }
 
-.two > .two-a,
+
+.two-a,
 .two-b {
-  background-color: #4d908e;
-  width: 1000px;
+  /* width: 1000px; */
   display: table-cell;
 }
 
-.two-aa {
-  /* width: 1000px; */
-  /* display: inline-block; */
-  outline: 6px solid #f94144;
-  background-color: #90be6d;
-  font-size: 36px;
-  /* text-align: left; */
+.two-aa,.two-bb {
+  outline: 4px dashed var(--color-91);
+  background-color: var(--color-5);
 }
-
+.two-aa {
+  font-size: 36px;
+}
 .two-bb {
-  outline: 6px solid #f94144;
-  background-color: #90be6d;
   font-size: 57px;
 }
-.there-a,
-.there-ab {
-  display: table-cell;
-  font-size: 50px;
-  outline: 6px solid #f94144;
-  background-color: #90be6d;
-}
 
-.there {
-  height: 300px;
-}
 
 .there-a,
-.there-ab {
+.there-b,.there-bb {
+  display: table-cell;
   font-size: 50px;
-  height: 300px;
-  width: 1000px;
-}
-.there-ab {
-  height: 150px;
-}
-.there-bb {
-  display: table-cell;
-  outline: 6px solid #f94144;
-  background-color: #90be6d;
-}
-
-.fore {
+  outline: 4px dashed var(--color-91);
+  background-color: var(--color-5);
   width: 1000px;
 }
 
-.fore-a,
-.fore-b {
-  display: table-cell;
-  outline: 6px solid #f94144;
-  background-color: #90be6d;
-  width: 1000px;
+
+.fore-a,.fore-b,
+.fore-ab,.fore-aaa, .fore-aab
+ {display: table-cell;
+  outline: 4px dashed var(--color-91);
+  font-size: 120px;
+  background-color: var(--color-5);
 }
 
-.fore-aa {
-  outline: 6px solid #f94144;
-  background-color: #90be6d;
+.fore-aa,.fore-aaaa,.fore-aaaa {
+  outline: 4px dashed var(--color-91);
+  font-size: 20px;
 }
-.fore-ab{
-  display: table-cell;
-  outline: 6px solid #f94144;
-  background-color: #90be6d;
-  font-size: 24px;
+.fore-aab {
+  font-size: 60px;
 }
-.fore-aaa, .fore-aab{
-  display: table-cell;
-  outline: 6px solid #f94144;
-  background-color: #90be6d;
-  font-size: 24px;
+
+.fore-aa{
+  font-size: 98px;
 }
-.fore-aaaa, .fore-aaab{
-  outline: 6px solid #f94144;
-  background-color: #90be6d;
-  font-size: 24px;
+
+.fore-aaaa{
+  font-size: 29px;
+}
+
+/* .fore-ab,.fore-aaa, .fore-aab{
+ font-size: 24px;
+} */
+/* .fore-aaa, .fore-aab {
+ font-size: 16px;
+} */
+/* .fore-aab{
+  font-size: 50px;
+}
+
+.fore-aa{
+  font-size: 100px;
+} */
+
+/* .one .two .there .fore {
+  outline: 8px dashed var(--color-91);
+  background-color: var(--color-5);
+}
+
+.one,.two,.there,.fore {
+  outline: 8px dashed var(--color-91);
+  background-color: var(--color-5);
+} */
+
+/* .one,.two,.there,.fore div {
+  outline: 8px dashed var(--color-91);
+  background-color: var(--color-5);
+} */
+
+/* withou table - cell */
+.fore-aa,.fore-aaaa,.fore-aaaa,.two-aa,.two-bb {
+  outline: 4px dashed green;
+}
+
+/* with table - cell */
+.fore-a,.fore-b,
+.fore-ab,.fore-aaa, .fore-aab, .there-a,
+.there-b,.there-bb, .one-a{
+  outline: 4px dashed rgb(161, 10, 144);
 }
