@@ -1,4 +1,4 @@
- /* html,
+ html,
       body,
       div,
       span,
@@ -86,8 +86,9 @@
         font: inherit;
         vertical-align: baseline;
       }
-      /* HTML5 display-role reset for older browsers */
-      /* article,
+     /* HTML5 display-role reset for older browsers */
+
+      article,
       aside,
       details,
       figcaption,
@@ -121,7 +122,7 @@
       table {
         border-collapse: collapse;
         border-spacing: 0;
-      }  */
+      } 
 * {
   margin: 0;
   padding: 0;
@@ -148,6 +149,11 @@ body h1 {
   text-align: right;
   margin-right: 300px;
   color: var(--color-1);
+}
+
+body h2{
+  margin: 30px;
+  font-size: 60px;
 }
 
 .main-div div{
@@ -193,7 +199,6 @@ body h1 {
   font-size: 130px;
 }
 
-
 .two-a,
 .two-b {
   /* width: 1000px; */
@@ -221,7 +226,6 @@ body h1 {
   width: 1000px;
 }
 
-
 .fore-a,.fore-b,
 .fore-ab,.fore-aaa, .fore-aab
  {display: table-cell;
@@ -246,35 +250,6 @@ body h1 {
   font-size: 29px;
 }
 
-/* .fore-ab,.fore-aaa, .fore-aab{
- font-size: 24px;
-} */
-/* .fore-aaa, .fore-aab {
- font-size: 16px;
-} */
-/* .fore-aab{
-  font-size: 50px;
-}
-
-.fore-aa{
-  font-size: 100px;
-} */
-
-/* .one .two .there .fore {
-  outline: 8px dashed var(--color-91);
-  background-color: var(--color-5);
-}
-
-.one,.two,.there,.fore {
-  outline: 8px dashed var(--color-91);
-  background-color: var(--color-5);
-} */
-
-/* .one,.two,.there,.fore div {
-  outline: 8px dashed var(--color-91);
-  background-color: var(--color-5);
-} */
-
 /* withou table - cell */
 .fore-aa,.fore-aaaa,.fore-aaaa,.two-aa,.two-bb {
   outline: 4px dashed green;
@@ -285,4 +260,70 @@ body h1 {
 .fore-ab,.fore-aaa, .fore-aab, .there-a,
 .there-b,.there-bb, .one-a{
   outline: 4px dashed rgb(161, 10, 144);
+}
+
+/* page with float */
+.float_page{
+  margin: 0 auto;
+  display: block;
+  max-width: 1000px;
+  height: 600px;
+}
+
+.fl_one{
+  background-color:var(--color-4);
+  padding: 5px 0;
+  max-width: 1000px;
+  height: 150px;
+  padding-left: 50px;
+
+}
+
+.fl_one_a{
+  width: 300px;
+  outline: dashed 4px var(--color-9);
+  font-size: 30px;
+  float: left;
+  height: 140px;
+
+}
+.clr_a{
+  clear: left;
+  height: 10px;
+  background-color:var(--color-7);
+  width: 900px;
+}
+
+
+.fl_two{
+  background-color:var(--color-4);
+  padding: 5px 0;
+  max-width: 1000px;
+  height: 150px;
+  padding-left: 50px;
+}
+.fl_two_a,.fl_two_b{
+  float: right;
+}
+
+.fl_two_a{
+
+  width: 600px;
+  outline: dashed 4px var(--color-9);
+  font-size: 30px;
+  height: 70px;
+}
+
+.fl_two_b{
+  width: 300px;
+  outline: dashed 4px var(--color-9);
+  font-size: 30px;
+  height: 140px;
+}
+
+.clr_b{
+  clear: right;
+  height: 10px;
+  background-color:var(--color-7);
+  width: 900px;
 }
