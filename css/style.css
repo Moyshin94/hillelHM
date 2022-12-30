@@ -295,34 +295,33 @@ body h2{
 }
 
 
+
 .fl_two{
   background-color:var(--color-4);
   padding: 5px 0;
-  max-width: 1000px;
+  max-width: 1010px;
   height: 150px;
   padding-left: 50px;
 }
-.fl_two_a,.fl_two_b{
-  float: right;
-}
 
 .fl_two_a{
-
-  width: 600px;
+  width: 580px;
   outline: dashed 4px var(--color-9);
   font-size: 30px;
   height: 70px;
+  float: left;
 }
 
 .fl_two_b{
-  width: 300px;
+  width: 280px;
   outline: dashed 4px var(--color-9);
   font-size: 30px;
-  height: 140px;
+  height: 100px;
+  float: right;
 }
 
 .clr_b{
-  clear: right;
+  clear: both;
   height: 10px;
   background-color:var(--color-7);
   width: 900px;
