@@ -326,3 +326,50 @@ body h2{
   background-color:var(--color-7);
   width: 900px;
 }
+
+
+/* FLEX-BOX part */
+
+.flex_main{
+  width: 900px;
+  background-color: var(--color-4);
+  margin:0 auto;
+}
+
+.flex_one{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.flex_one_a{
+  outline: solid 2px var(--color-91);
+  background-color: var(--color-5);
+}
+
+/* TWO */
+
+.flex_two{
+  display: flex;
+
+}
+
+.flex_two_a{
+  display:flex;
+  width: 600px;
+}
+
+.flex_two_aa{
+  outline: solid 2px var(--color-91);
+  background-color: var(--color-5);
+}
+
+.flex_two_b{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.flex_two_bb{
+  background-color:var(--color-5);
+  outline: solid 2px var(--color-91);
+}
