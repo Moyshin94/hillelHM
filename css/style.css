@@ -373,3 +373,36 @@ body h2{
   background-color:var(--color-5);
   outline: solid 2px var(--color-91);
 }
+
+
+
+
+.flex_there{
+  display: flex;
+}
+
+.flex_there_a, .flex_there_b{
+  background-color:var(--color-5);
+  outline: solid 2px var(--color-91);
+  width: 300px;
+}
+
+.flex_there_b{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.flex_there_bb{
+  
+  background-color:var(--color-5);
+  outline: solid 4px var(--color-91);
+display: flex;
+flex-direction: row;
+}
+
+.flex_there_bb1, .flex_there_bb2 {
+  background-color:var(--color-5);
+  outline: solid 2px var(--color-91);
+  /* flex:0 1 300px; */
+}
+
