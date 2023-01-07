@@ -1,129 +1,128 @@
- html,
-      body,
-      div,
-      span,
-      applet,
-      object,
-      iframe,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6,
-      p,
-      blockquote,
-      pre,
-      a,
-      abbr,
-      acronym,
-      address,
-      big,
-      cite,
-      code,
-      del,
-      dfn,
-      em,
-      img,
-      ins,
-      kbd,
-      q,
-      s,
-      samp,
-      small,
-      strike,
-      strong,
-      sub,
-      sup,
-      tt,
-      var,
-      b,
-      u,
-      i,
-      center,
-      dl,
-      dt,
-      dd,
-      ol,
-      ul,
-      li,
-      fieldset,
-      form,
-      label,
-      legend,
-      table,
-      caption,
-      tbody,
-      tfoot,
-      thead,
-      tr,
-      th,
-      td,
-      article,
-      aside,
-      canvas,
-      details,
-      embed,
-      figure,
-      figcaption,
-      footer,
-      header,
-      hgroup,
-      menu,
-      nav,
-      output,
-      ruby,
-      section,
-      summary,
-      time,
-      mark,
-      audio,
-      video {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-      }
-     /* HTML5 display-role reset for older browsers */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
 
-      article,
-      aside,
-      details,
-      figcaption,
-      figure,
-      footer,
-      header,
-      hgroup,
-      menu,
-      nav,
-      section {
-        display: block;
-      }
-      body {
-        line-height: 1;
-      }
-      ol,
-      ul {
-        list-style: none;
-      }
-      blockquote,
-      q {
-        quotes: none;
-      }
-      blockquote:before,
-      blockquote:after,
-      q:before,
-      q:after {
-        content: "";
-        content: none;
-      }
-      table {
-        border-collapse: collapse;
-        border-spacing: 0;
-      } 
-
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
 :root {
   --color-1: #001219;
@@ -136,9 +135,24 @@
   --color-8: #bb3e03;
   --color-9: #ae2012;
   --color-91: #9b2226;
+  --color-green1: #ecf39e;
+  --color-green2: #90a955;
+  --color-green3: #4f772d;
+  --color-green4: #31572c;
+  --color-green5: #132a13;
+  --color-blue1: #caf0f8;
+  --color-blue2: #90e0ef;
+  --color-blue3: #00b4d8;
+  --color-blue4: #0077b6;
+  --color-blue5: #03045e;
+  --color-red1: #ad2831;
+  --color-red2: #800e13;
+  --color-red3: #640d14;
+  --color-red4: #38040e;
+  --color-red5: #250902;
 }
 
-body{
+body {
   font-family: serif;
   scroll-behavior: smooth;
 }
@@ -149,7 +163,7 @@ body h1 {
   color: var(--color-1);
 }
 
-body h2{
+body h2 {
   margin: 30px;
   font-size: 60px;
 }
@@ -173,7 +187,7 @@ p {
     "Lucida Sans", Arial, sans-serif;
   font-size: 24px;
   text-align: justify;
-  
+
   border-width: 4px;
   border-color: var(--color-border);
   border-radius: 16px;
@@ -193,13 +207,13 @@ p {
   text-align: left;
 }
 
-.main-div div{
+.main-div div {
   margin: 50px;
 }
 
 /* page Cristian Bale */
 
-.navigation{
+.navigation {
   position: fixed;
   left: 1;
   top: 35%;
@@ -212,7 +226,7 @@ p {
   border-radius: 12px;
 }
 
-.img-Bale-top>a{
+.img-Bale-top > a {
   margin-left: 900px;
 }
 
@@ -249,18 +263,19 @@ a {
   cursor: url("../cursore/pngegg.png"), 100px 100px auto;
 }
 
-
-.table-cell,.inline-block,.float{
+.table-cell,
+.inline-block,
+.float {
   float: left;
 }
 
-.link{
+.link {
   font-size: 25px;
   padding: 26px 66px;
   text-transform: uppercase;
 }
-.link:hover{
-  color:var(--color-8);
+.link:hover {
+  color: var(--color-8);
 }
 
 /* from table-cell */
@@ -269,10 +284,13 @@ a {
   width: 1400px;
   padding: 30px 0;
   margin: 0 auto;
-  background-color:var(--color-4)
+  background-color: var(--color-4);
 }
 
-.one, .two, .there, .fore {
+.one,
+.two,
+.there,
+.fore {
   width: 1000px;
   /* height: 250px; */
   margin: 0 auto;
@@ -295,7 +313,8 @@ a {
   display: table-cell;
 }
 
-.two-aa,.two-bb {
+.two-aa,
+.two-bb {
   outline: 4px dashed var(--color-91);
   background-color: var(--color-5);
 }
@@ -306,9 +325,9 @@ a {
   font-size: 57px;
 }
 
-
 .there-a,
-.there-b,.there-bb {
+.there-b,
+.there-bb {
   display: table-cell;
   font-size: 50px;
   outline: 4px dashed var(--color-91);
@@ -316,15 +335,20 @@ a {
   width: 1000px;
 }
 
-.fore-a,.fore-b,
-.fore-ab,.fore-aaa, .fore-aab
- {display: table-cell;
+.fore-a,
+.fore-b,
+.fore-ab,
+.fore-aaa,
+.fore-aab {
+  display: table-cell;
   outline: 4px dashed var(--color-91);
   font-size: 120px;
   background-color: var(--color-5);
 }
 
-.fore-aa,.fore-aaaa,.fore-aaaa {
+.fore-aa,
+.fore-aaaa,
+.fore-aaaa {
   outline: 4px dashed var(--color-91);
   font-size: 20px;
 }
@@ -332,43 +356,54 @@ a {
   font-size: 60px;
 }
 
-.fore-aa{
+.fore-aa {
   font-size: 98px;
 }
 
-.fore-aaaa{
+.fore-aaaa {
   font-size: 29px;
 }
 
 /* withou table - cell */
-.fore-aa,.fore-aaaa,.fore-aaaa,.two-aa,.two-bb {
+.fore-aa,
+.fore-aaaa,
+.fore-aaaa,
+.two-aa,
+.two-bb {
   outline: 4px dashed green;
 }
 
 /* with table - cell */
-.fore-a,.fore-b,
-.fore-ab,.fore-aaa, .fore-aab, .there-a,
-.there-b,.there-bb, .one-a{
+.fore-a,
+.fore-b,
+.fore-ab,
+.fore-aaa,
+.fore-aab,
+.there-a,
+.there-b,
+.there-bb,
+.one-a {
   outline: 4px dashed rgb(161, 10, 144);
 }
 
-
-
 /* FLOAT */
-.float_page{
+.float_page {
   margin: 0 auto;
   /* display: block; */
-  max-width: 1000px; 
+  max-width: 1000px;
 }
 
-.fl_one ,.fl_two ,.fl_there ,.fl_fore{
-  background-color:var(--color-4);
+.fl_one,
+.fl_two,
+.fl_there,
+.fl_fore {
+  background-color: var(--color-4);
   padding: 20px;
   max-width: 900px;
   margin: 0 auto;
 }
 
-.fl_one_a{
+.fl_one_a {
   width: 300px;
   outline: dashed 4px var(--color-9);
   font-size: 30px;
@@ -377,27 +412,26 @@ a {
   margin: 0 auto;
 }
 
-.clr{
+.clr {
   clear: both;
   height: 30px;
-  background-color:var(--color-7);
+  background-color: var(--color-7);
   max-width: 900px;
   margin: 0 auto;
 }
 
-
-
-.fl_two_a{
+.fl_two_a {
   width: 600px;
   outline: dashed 4px var(--color-9);
   font-size: 50px;
   float: left;
 }
 
-.fl_two_aa, .fl_two_bb{
+.fl_two_aa,
+.fl_two_bb {
   outline: dashed 4px var(--color-9);
 }
-.fl_two_b{
+.fl_two_b {
   width: 300px;
   outline: dashed 4px var(--color-9);
   font-size: 35px;
@@ -405,62 +439,62 @@ a {
   float: left;
 }
 
-
-
 .fl_there {
-
 }
 
-.fl_there_a, .fl_there_b{
+.fl_there_a,
+.fl_there_b {
   float: left;
   height: 200px;
   width: 300px;
   font-size: 50px;
   outline: dashed 4px var(--color-9);
 }
-.fl_there_b{
+.fl_there_b {
   width: 600px;
   font-size: 30px;
 }
 
-.fl_there_b1{
+.fl_there_b1 {
   width: 600px;
   height: 100px;
   outline: solid 6px var(--color-1);
 }
 
-.fl_there_b2{
+.fl_there_b2 {
   float: left;
   width: 300px;
   height: 100px;
   outline: solid 6px var(--color-2);
 }
 
-
-.fl_fore_a, .fl_fore_b{
-width: 600px;
-height: 200px;
-outline: dashed 2px var(--color-9);
-float: left;
+.fl_fore_a,
+.fl_fore_b {
+  width: 600px;
+  height: 200px;
+  outline: dashed 2px var(--color-9);
+  float: left;
 }
-.fl_fore_b{
-width: 300px;
+.fl_fore_b {
+  width: 300px;
 }
 
-.fl_fore_ab1, .fl_fore_ab2{
+.fl_fore_ab1,
+.fl_fore_ab2 {
   float: left;
   outline: dotted 3px var(--color-1);
   width: 600px;
   height: 100px;
 }
 
-.fl_fore_abc1,.fl_fore_abc2{
+.fl_fore_abc1,
+.fl_fore_abc2 {
   float: left;
   outline: dotted 5px rgb(239, 240, 235);
   width: 300px;
   height: 100px;
 }
-.fl_fore_abcd1{ 
+.fl_fore_abcd1 {
   /* float: left; */
   outline: dotted 5px rgb(192, 237, 9);
   width: 150px;
@@ -469,83 +503,78 @@ width: 300px;
 
 /* FLEX-BOX part */
 
-.flex_main{
+.flex_main {
   width: 900px;
   background-color: var(--color-4);
-  margin:0 auto;
+  margin: 0 auto;
 }
 
-.flex_one{
+.flex_one {
   display: flex;
   margin-bottom: 20px;
 }
 
-.flex_one_a{
+.flex_one_a {
   outline: solid 2px var(--color-91);
   background-color: var(--color-5);
 }
 
 /* TWO */
 
-.flex_two{
+.flex_two {
   display: flex;
-
 }
 
-.flex_two_a{
-  display:flex;
+.flex_two_a {
+  display: flex;
   width: 600px;
 }
 
-.flex_two_aa{
+.flex_two_aa {
   outline: solid 2px var(--color-91);
   background-color: var(--color-5);
 }
 
-.flex_two_b{
+.flex_two_b {
   display: flex;
   flex-direction: column;
   width: 300px;
 }
 
-.flex_two_bb{
-  background-color:var(--color-5);
+.flex_two_bb {
+  background-color: var(--color-5);
   outline: solid 2px var(--color-91);
 }
 
-
-
-
-.flex_there{
+.flex_there {
   display: flex;
 }
 
-.flex_there_a, .flex_there_b{
-  background-color:var(--color-5);
+.flex_there_a,
+.flex_there_b {
+  background-color: var(--color-5);
   outline: solid 2px var(--color-91);
   width: 300px;
 }
 
-.flex_there_b{
+.flex_there_b {
   width: 600px;
   display: flex;
   flex-direction: column;
 }
-.flex_there_bb{
-  
-  background-color:var(--color-5);
+.flex_there_bb {
+  background-color: var(--color-5);
   outline: solid 4px var(--color-91);
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
-.flex_there_bb1, .flex_there_bb2 {
-  background-color:var(--color-5);
+.flex_there_bb1,
+.flex_there_bb2 {
+  background-color: var(--color-5);
   outline: solid 2px var(--color-91);
   /* flex:0 1 300px; */
 }
-
-
 
 /* from another css file blog-bale */
 
