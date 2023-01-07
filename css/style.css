@@ -123,10 +123,7 @@
         border-collapse: collapse;
         border-spacing: 0;
       } 
-* {
-  margin: 0;
-  padding: 0;
-}
+
 
 :root {
   --color-1: #001219;
@@ -143,6 +140,7 @@
 
 body{
   font-family: serif;
+  scroll-behavior: smooth;
 }
 
 body h1 {
@@ -156,9 +154,101 @@ body h2{
   font-size: 60px;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  color: var(--color-2);
+  padding: 30px;
+  font-size: 30px;
+}
+
+p {
+  color: var(--color-text);
+  padding: 12px;
+  margin: 0px 200px 0px;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 24px;
+  text-align: justify;
+  
+  border-width: 4px;
+  border-color: var(--color-border);
+  border-radius: 16px;
+  border-style: solid;
+}
+
+.conclusion {
+  font-weight: 600;
+}
+
+.ps {
+  border-style: none;
+  color: var(--color-h);
+  padding-top: 36px;
+  margin: 16px;
+  font-size: 16px;
+  text-align: left;
+}
+
 .main-div div{
   margin: 50px;
 }
+
+/* page Cristian Bale */
+
+.navigation{
+  position: fixed;
+  left: 1;
+  top: 35%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 18px;
+  border: solid 4px #6abbf5;
+  border-radius: 12px;
+}
+
+.img-Bale-top>a{
+  margin-left: 900px;
+}
+
+.movie {
+  font-size: 30px;
+}
+
+.box-lithning {
+  margin: 0 auto;
+}
+.img-ligthning,
+.curant-war-blok-pic {
+  cursor: url(../cursore/lightning-handwriting.cur), 4px 12px auto;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #339af0;
+  font-size: 36px;
+  padding-left: 16px;
+  margin: 36px;
+  display: block;
+}
+.link:hover {
+  color: #03045e;
+}
+
+a {
+  cursor: url("../cursore/pngegg.png"), 100px 100px auto;
+}
+
 
 .table-cell,.inline-block,.float{
   float: left;
@@ -455,3 +545,107 @@ flex-direction: row;
   /* flex:0 1 300px; */
 }
 
+
+
+/* from another css file blog-bale */
+
+/* 
+
+html,
+body {
+
+}
+
+body {
+  background-color: var(--color-background);
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  color: var(--color-h);
+  padding: 30px;
+  font-size: 30px;
+}
+h1 {
+  font-size: 44px;
+}
+h4 {
+  font-style: oblique;
+}
+
+p {
+  color: var(--color-text);
+  padding: 12px;
+  margin: 0px 200px 0px;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 24px;
+  text-align: justify;
+  
+  border-width: 4px;
+  border-color: var(--color-border);
+  border-radius: 16px;
+  border-style: solid;
+}
+
+.conclusion {
+  font-weight: 600;
+}
+.ps {
+  border-style: none;
+  color: var(--color-h);
+  padding-top: 36px;
+  margin: 16px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.img-Bale-top{
+  
+}
+
+
+
+
+/* POSITION */
+
+/* .film-list {
+  text-align: center;
+  font-size: 24px;
+  margin: 0px 200px 0px;
+  text-transform: uppercase;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.film {
+  text-decoration: wavy;
+  border: solid 6px var(--color-border);
+  border-radius: 16px;
+}
+
+
+.img_for_plate{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.plate{
+  display: none;
+}
+
+.film_img_yuma:hover .plate{
+  width: 100%;
+  background-color: pink;
+  top: 50%;
+  position: absolute;
+  display: block;
+} */
