@@ -303,7 +303,7 @@ ul a:hover {
   color: var(--color-red3);
 }
 
-/* page Cristian Bale */
+/* page Cristian Bale navigation */
 
 .navigation {
   position: fixed;
@@ -340,24 +340,32 @@ ul a:hover {
   font-weight: 600;
   justify-content: center;
 }
-/* POSITION BALE PAGE */
+/* plate POSITION BALE PAGE */
 
-.img_for_plate {
-  position: relative;
+.block_film_plate {
   width: 100%;
   height: 100%;
+  font-size: 0;
+}
+
+.film_plate {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
 }
 
 .plate {
   display: none;
 }
-
-.film_img_yuma:hover .plate {
+.film_plate:hover .plate {
   width: 100%;
-  background-color: pink;
-  top: 50%;
+  background-color: var(--color-green1);
+  top: 45%;
   position: absolute;
   display: block;
+  height: 50px;
+  font-size: 40px;
 }
 
 /* Currant war page */
