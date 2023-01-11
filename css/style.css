@@ -504,6 +504,149 @@ ul a:hover {
   outline: 4px dashed rgb(161, 10, 144);
 }
 
+/* INLINE-BLOCK start */
+.wrapper_inline-block {
+  max-width: 1200px;
+  max-height: 1200px;
+  background: var(--color-green1);
+  margin: 0 auto;
+  outline: 2px solid var(--color-red1);
+  font-size: 0px;
+  margin-bottom: 100px;
+}
+.w400 {
+  width: 400px;
+  outline: 2px solid var(--color-red3);
+}
+
+.in-b_1 {
+  font-size: 0px;
+}
+
+.in-b_1_a {
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  height: 150px;
+  width: 400px;
+  outline: 3px dashed var(--color-green4);
+}
+
+.in-b_2 {
+  font-size: 0px;
+  width: 1200px;
+  height: 300px;
+}
+
+.in-b_2_1a {
+  outline: 2px solid var(--color-blue2);
+  font-size: 40px;
+  display: inline-block;
+}
+.in-b_2_2a {
+  width: 800px;
+  height: 100px;
+  outline: 2px solid var(--color-red3);
+}
+
+.in-b_2_1b {
+  outline: 2px solid var(--color-red4);
+  display: inline-block;
+  font-size: 40px;
+  vertical-align: top;
+}
+
+.in-b_2_2b {
+  height: 150px;
+  width: 400px;
+  outline: 2px solid var(--color-red4);
+}
+
+.in-b_3 {
+  width: 1200px;
+  height: 300px;
+  font-size: 0;
+}
+
+.in-b_3_1a,
+.in-b_3_1b {
+  font-size: 36px;
+  outline: 3px solid var(--color-red2);
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+.in-b_3_1b {
+  width: 800px;
+  height: 300px;
+}
+
+.in-b_3_2a,
+.in-b_3_2b {
+  outline: 2px dashed var(--color-3);
+  height: 150px;
+}
+
+.in-b_3_2b {
+  font-size: 0;
+}
+
+.in-b_3_3 {
+  outline: 5px dotted var(--color-green4);
+  height: 150px;
+  display: inline-block;
+  width: 400px;
+  font-size: 40px;
+}
+
+.in-b_4 {
+  width: 1200px;
+  height: 400px;
+  font-size: 0;
+}
+.in-b_4_1a,
+.in-b_4_1b {
+  display: inline-block;
+  font-size: 30px;
+  outline: 2px solid var(--color-red4);
+  width: 800px;
+  height: 400px;
+  vertical-align: top;
+}
+.in-b_4_1b {
+  width: 400px;
+}
+
+.in-b_4_2a,
+.in-b_4_2b {
+  outline: 6px dotted var(--color-blue4);
+  width: 800px;
+  height: 200px;
+}
+
+.in-b_4_2b {
+  font-size: 0;
+}
+
+.in-b_4_3a,
+.in-b_4_3b {
+  outline: 2px dashed var(--color-red1);
+  width: 400px;
+  display: inline-block;
+  font-size: 40px;
+  vertical-align: top;
+  height: 200px;
+}
+
+.in-b_4_4 {
+  outline: 4px dashed var(--color-3);
+  width: 400px;
+  height: 100px;
+}
+
+/* INLINE-BLOCK end */
+
 /* FLOAT */
 .float_page {
   margin: 0 auto;
