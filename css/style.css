@@ -780,10 +780,10 @@ ul a:hover {
 
 /* FLEX-BOX part */
 
-.flex_main {
+.wrapper_flex-box {
   width: 900px;
   background-color: var(--color-4);
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 .flex_one {
