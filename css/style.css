@@ -778,6 +778,17 @@ ul a:hover {
   height: 50px;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 30px;
+  background-color: var(--color-7);
+  max-width: 900px;
+  margin: 0 auto;
+}
+/* FLOAT END */
+
 /* FLEX-BOX part */
 
 .wrapper_flex-box {
