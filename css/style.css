@@ -308,10 +308,12 @@ ul a:hover {
   font-size: 0;
 }
 
-.li-link {
+/* .li-link */
+.bottom_main_page_link_list li {
+  text-align: justify;
   display: inline-block;
   outline: 6px solid var(--color-red4);
-  vertical-align: top;
+  /* vertical-align: top; */
   font-size: 30px;
 }
 
@@ -873,20 +875,21 @@ ul a:hover {
 /* CSS SPITES menu start */
 .socmenu {
   font-size: 0px;
-  text-align: center;
+  text-align: right;
+  margin: 10px;
 }
 
 .socmenu li {
   display: inline-block;
   font-size: 10px;
+  margin: 20px;
 }
 
 .socmenu li a {
   width: 2px;
   height: 10px;
-  background-color: var(--color-green1);
   display: block;
-  border: 2px solid var(--color-red1);
+  border: 2px solid var(--color-1);
   background: url(../img&links/sprite/css_spritese.png) 156px 0px;
 }
 
