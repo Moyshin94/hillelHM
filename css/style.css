@@ -223,21 +223,50 @@ p {
   background-color: var(--color-green2);
 }
 
-ul li + li {
+.menu_main li + li {
   border-left: 3px solid var(--color-green2);
 }
-ul ul li + li {
+.menu_main ul li + li {
   border: none;
   border-top: 2px solid var(--color-green2);
 }
 
-ul li a {
+.menu_main li a {
   display: block;
   color: var(--color-blue4);
-  text-transform: uppercase;
   padding: 20px 30px;
+  position: relative;
+  padding: 20px 10px 10px 60px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-ul a:hover {
+
+/* CSS SPRITES  main menu*/
+.menu_main li a::before {
+  content: "";
+  background: url(../img&links/sprite/css_spritese.png) -288px 0px;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.menu_main li + li a::before {
+  background-position: 1px 0px;
+  width: 38px;
+}
+
+.menu_main li + li + li a::before {
+  background-position: 251px 0px;
+  width: 50px;
+}
+
+.menu_main li + li + li + li a::before {
+  background-position: 351px 0px;
+}
+/* CSS SPRITES  main menu end*/
+
+.menu_main a:hover {
   color: var(--color-blue5);
   background-color: var(--color-green3);
 }
@@ -881,23 +910,37 @@ ul a:hover {
 
 .socmenu li {
   display: inline-block;
-  font-size: 10px;
-  margin: 20px;
+  font-size: 20px;
+  margin: 5px;
 }
 
 .socmenu li a {
-  width: 2px;
-  height: 10px;
+  padding: 0px;
   display: block;
   border: 2px solid var(--color-1);
-  background: url(../img&links/sprite/css_spritese.png) 156px 0px;
+  background-color: var(--color-6);
+  text-transform: uppercase;
+  color: var(--color-5);
+  text-decoration: none;
+  position: relative;
+  padding: 20px 10px 10px 60px;
 }
 
-.socmenu li + li a {
-  background-position: 106px 0px;
+.socmenu li a::before {
+  content: "";
+  background: url(../img&links/sprite/css_spritese.png) 150px 0px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.socmenu li + li + li a {
-  background-position: 56px 0px;
+.socmenu li + li a::before {
+  background-position: 100px 0px;
+}
+
+.socmenu li + li + li a::before {
+  background-position: 51px 0px;
 }
 /* CSS SPITES menu end */
