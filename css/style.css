@@ -208,30 +208,24 @@ p {
 }
 
 /* MENU */
-.menu_main {
+.f1-level {
   font-size: 0;
   text-align: center;
 }
-.menu_main li {
+.f1-level li {
   display: inline-block;
   font-size: 30px;
   background-color: var(--color-green1);
   vertical-align: bottom;
   position: relative;
+  border-left: 3px solid var(--color-green2);
 }
-.menu_main li:hover {
+
+.f1-level li:hover {
   background-color: var(--color-green2);
 }
 
-.menu_main li + li {
-  border-left: 3px solid var(--color-green2);
-}
-.menu_main ul li + li {
-  border: none;
-  border-top: 2px solid var(--color-green2);
-}
-
-.menu_main li a {
+.f1-level li a {
   display: block;
   color: var(--color-blue4);
   padding: 20px 30px;
@@ -241,32 +235,7 @@ p {
   text-transform: uppercase;
 }
 
-/* CSS SPRITES  main menu*/
-.menu_main li a::before {
-  content: "";
-  background: url(../img&links/sprite/css_spritese.png) -288px 0px;
-  width: 50px;
-  height: 50px;
-  top: 0;
-  left: 0;
-  position: absolute;
-}
-.menu_main li + li a::before {
-  background-position: 1px 0px;
-  width: 38px;
-}
-
-.menu_main li + li + li a::before {
-  background-position: 251px 0px;
-  width: 50px;
-}
-
-.menu_main li + li + li + li a::before {
-  background-position: 351px 0px;
-}
-/* CSS SPRITES  main menu end*/
-
-.menu_main a:hover {
+.f1-level a:hover {
   color: var(--color-blue5);
   background-color: var(--color-green3);
 }
@@ -274,8 +243,13 @@ p {
 .open_menu_blocks {
   position: absolute;
   top: 100%;
-  left: 0;
+  left: -3px;
+  right: 0;
+  width: 100%;
   display: none;
+}
+.open_menu_blocks li {
+  display: block;
 }
 
 .open_menu li:hover .open_menu_blocks {
@@ -303,6 +277,40 @@ p {
 .open_menu_blocks li:hover .open_menu_grid {
   display: block;
 }
+
+/* menu no so nesesory start */
+
+/* .f1-level ul li + li {
+  border: none;
+  border-top: 2px solid var(--color-green2);
+} */
+
+/* menu no so nesesory end */
+
+/* CSS SPRITES  main menu*/
+.f1-level li a::before {
+  content: "";
+  background: url(../img&links/sprite/css_spritese.png) -288px 0px;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.f1-level li + li a::before {
+  background-position: 1px 0px;
+  width: 38px;
+}
+
+.f1-level li + li + li a::before {
+  background-position: 251px 0px;
+  width: 50px;
+}
+
+.f1-level li + li + li + li a::before {
+  background-position: 351px 0px;
+}
+/* CSS SPRITES  main menu end*/
 
 /* ul li:hover ul {
   display: block;
@@ -944,3 +952,14 @@ p {
   background-position: 51px 0px;
 }
 /* CSS SPITES menu end */
+
+/* 17 TRANSITION */
+
+/* .wrapper-text {
+  transition: width 2s Linear, padding 1s ease 25, background 3s ease-in;
+  background-color: var(--color-5);
+}
+
+.wwrapper-text:hover {
+  background-color: var(--color-6);
+} */
