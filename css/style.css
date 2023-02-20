@@ -207,93 +207,6 @@ p {
   text-align: center;
 }
 
-/* MENU */
-.f1-level {
-  font-size: 0;
-  text-align: center;
-}
-.f1-level li {
-  display: inline-block;
-  font-size: 30px;
-  background-color: var(--color-green1);
-  vertical-align: bottom;
-  position: relative;
-  border-left: 3px solid var(--color-green2);
-  transition: all 1s ease 1s;
-}
-
-.f1-level li:hover {
-  background-color: var(--color-green2);
-}
-
-.f1-level li a {
-  display: block;
-  color: var(--color-blue4);
-  padding: 20px 30px;
-  position: relative;
-  padding: 20px 10px 10px 60px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.f1-level a:hover {
-  color: var(--color-blue5);
-  background-color: var(--color-green3);
-  transition: all 2s ease;
-}
-
-.open_menu_blocks {
-  position: absolute;
-  top: 100%;
-  left: -3px;
-  right: 0;
-  width: 100%;
-  display: none;
-}
-.open_menu_blocks li {
-  display: block;
-}
-
-.open_menu li:hover .open_menu_blocks {
-  display: block;
-}
-
-.open_menu_float {
-  position: absolute;
-  left: 100%;
-  top: 0;
-  display: none;
-}
-
-.open_menu_blocks li:hover .open_menu_float {
-  display: block;
-}
-
-.open_menu_grid {
-  position: absolute;
-  right: 100%;
-  bottom: 0;
-  display: none;
-}
-
-.open_menu_blocks li:hover .open_menu_grid {
-  display: block;
-}
-
-/* menu no so nesesory start */
-
-/* .f1-level ul li + li {
-  border: none;
-  border-top: 2px solid var(--color-green2);
-} */
-
-/* menu no so nesesory end */
-
-/* ul li:hover ul {
-  display: block;
-} */
-/* MENU END */
-
 .conclusion {
   font-weight: 600;
 }
@@ -886,6 +799,97 @@ p {
 
 /* GRID end */
 
+/* MENU */
+.f1-level {
+  font-size: 0;
+  text-align: center;
+}
+.f1-level li {
+  display: inline-block;
+  font-size: 30px;
+  background-color: var(--color-green1);
+  vertical-align: bottom;
+  position: relative;
+  border-left: 3px solid var(--color-green2);
+  transition: all 1s ease 1s;
+}
+
+.f1-level li:hover {
+  background-color: var(--color-green2);
+}
+
+.f1-level li a {
+  display: block;
+  color: var(--color-blue4);
+  padding: 20px 30px;
+  position: relative;
+  padding: 20px 10px 10px 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.f1-level a:hover {
+  color: var(--color-blue5);
+  background-color: var(--color-green3);
+  transition: all 2s ease;
+}
+
+.open_menu_blocks {
+  position: absolute;
+  top: 100%;
+  left: -3px;
+  right: 0;
+  width: 100%;
+  display: none;
+}
+.open_menu_blocks li {
+  display: block;
+}
+
+.open_menu li:hover .open_menu_blocks {
+  display: block;
+}
+
+.open_menu_float {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  display: none;
+}
+
+.open_menu_blocks li:hover .open_menu_float {
+  display: block;
+}
+
+.open_menu_grid {
+  position: absolute;
+  right: 100%;
+  bottom: 0;
+  display: none;
+}
+
+.open_menu_blocks li:hover .open_menu_grid {
+  display: block;
+}
+
+#a-block {
+  padding: 14px 71px 17px 9px;
+}
+
+/* menu no so nesesory start */
+
+/* .f1-level ul li + li {
+  border: none;
+  border-top: 2px solid var(--color-green2);
+} */
+
+/* menu no so nesesory end */
+
+/* ul li:hover ul {
+  display: block;
+} */
+/* MENU END */
+
 /* CSS SPRITES menu start*/
 .f1-level li a::before {
   content: "";
@@ -896,29 +900,36 @@ p {
   left: 0;
   position: absolute;
 }
-.f1-level li + li a::before {
+.f1-level :nth-child(2) a::before {
   background-position: 1px 0px;
   width: 38px;
 }
 
-.f1-level li + li + li a::before {
+.f1-level :nth-child(3) a::before {
   background-position: 251px 0px;
   width: 50px;
 }
 
-.f1-level li + li + li + li a::before {
+/* .f1-level :nth-child(4) a::before {
   background-position: 351px 0px;
   right: 0;
   left: auto;
   top: 13px;
-}
+} */
 
-#a-block {
-  padding: 28px 73px 1px 24px;
+#a-block::before {
+  background-position: 351px 0px;
+  right: 0;
+  left: auto;
+  top: 2px;
+
+  /* padding: 28px 73px 1px 24px;
   display: inline-block;
   width: 123px;
-  top: -11px;
+  top: -11px; */
+  overflow: hidden;
 }
+
 /* CSS SPRITES  main menu end*/
 
 /* CSS SPITES menu start */
