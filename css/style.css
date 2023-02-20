@@ -219,6 +219,7 @@ p {
   vertical-align: bottom;
   position: relative;
   border-left: 3px solid var(--color-green2);
+  transition: all 1s ease 1s;
 }
 
 .f1-level li:hover {
@@ -238,6 +239,7 @@ p {
 .f1-level a:hover {
   color: var(--color-blue5);
   background-color: var(--color-green3);
+  transition: all 2s ease;
 }
 
 .open_menu_blocks {
