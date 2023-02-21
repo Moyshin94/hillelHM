@@ -839,14 +839,19 @@ p {
   left: -3px;
   right: 0;
   width: 100%;
-  display: none;
+  /* display: none; */
+  opacity: 0;
+  pointer-events: none;
+  transition: all 1s ease;
 }
 .open_menu_blocks li {
   display: block;
 }
 
 .open_menu li:hover .open_menu_blocks {
-  display: block;
+  /* display: block; */
+  opacity: 1;
+  pointer-events: all;
 }
 
 .open_menu_float {
