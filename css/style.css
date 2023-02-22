@@ -1089,8 +1089,10 @@ p {
   margin-top: -100px;
   padding-left: 80px;
   box-sizing: border-box;
+  padding: 9px 44px 7px 98px;
 }
 .h2-soc-transfor {
+  background-color: var(--color-blue2);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1102,31 +1104,38 @@ p {
   rotate: -90deg;
 }
 .ul-soc-transform {
-  width: 320px;
   font-size: 0px;
+  rotate: 45deg;
+  text-align: center;
 }
 
 .ul-soc-transform > li {
   display: inline-block;
   font-size: 100px;
+  margin: 4px 30px 44px 19px;
+  text-align: center;
 }
 .ul-soc-transform > li > a {
   display: block;
   background-image: url(../img&links/img/svg-transorm100px.png);
-  background-position: -19px -26px;
-  width: 50px;
-  height: 50px;
+  background-position: -22px -29px;
+  width: 42px;
+  height: 42px;
+  border-radius: 6px;
 }
-
 .ul-soc-transform :nth-child(2) a {
-  background-position: 73px -18px;
-  width: 70px;
-  height: 60px;
+  background-position: 61px -31px;
 }
-
 .ul-soc-transform :nth-child(3) a {
-  background-position: 126px -25px;
+  background-position: 121px -31px;
 }
 .ul-soc-transform :nth-child(4) a {
-  background-position: 179px 77px;
+  background-position: 176px 70px;
+}
+
+.div-soc-transform {
+  /* overflow: hidden; */
+}
+
+.h2-soc-transfor:hover .ul-soc-transform {
 }
