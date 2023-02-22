@@ -1112,11 +1112,21 @@ p {
 }
 .ul-soc-transform > li > a {
   display: block;
-  background: url(../img&links/img/svg-transorm100px.png) -19px -26px;
+  background-image: url(../img&links/img/svg-transorm100px.png);
+  background-position: -19px -26px;
   width: 50px;
   height: 50px;
 }
 
-.ul-soc-transform > li > a + a {
-  background-position: 0px 0px;
+.ul-soc-transform :nth-child(2) a {
+  background-position: 73px -18px;
+  width: 70px;
+  height: 60px;
+}
+
+.ul-soc-transform :nth-child(3) a {
+  background-position: 126px -25px;
+}
+.ul-soc-transform :nth-child(4) a {
+  background-position: 179px 77px;
 }
