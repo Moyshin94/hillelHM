@@ -651,8 +651,8 @@ p {
   float: left;
 }
 
-.fl_there {
-}
+/* .fl_there {
+} */
 
 .fl_there_a,
 .fl_there_b {
@@ -1105,8 +1105,12 @@ p {
 }
 .ul-soc-transform {
   font-size: 0px;
-  rotate: 45deg;
-  text-align: center;
+  transform: rotate(45deg);
+  width: 200px;
+  height: 200px;
+  margin: 0px;
+  padding: 0px;
+  /* text-align: center; */
 }
 
 .ul-soc-transform > li {
@@ -1133,9 +1137,9 @@ p {
   background-position: 176px 70px;
 }
 
-.div-soc-transform {
-  /* overflow: hidden; */
-}
+/* .div-soc-transform {
+  overflow: hidden;
+} */
 
 .div-soc-transform {
   transform: translate(350px);
@@ -1146,7 +1150,34 @@ p {
   transition: all 2s ease;
 }
 
+/* .ul-soc-transform :hover {
+  transform: rotate(180deg);
+  transition: all 2s ease;
+} */
+
 .ul-soc-transform :hover {
-  transform: rotate(360deg);
+  transform: rotate(180deg);
   transition: all 2s ease;
 }
+/* 18 GRADIENT SHADOWS START */
+/* body ::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #0088cc0a, #00cc8805);
+} */
+
+body ::after {
+  content: "";
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 20%;
+  background-image: linear-gradient(to bottom right, #b75c060a, #0300cc05);
+}
+
+/* 18 GRADIENT SHADOWS END */
