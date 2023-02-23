@@ -1137,5 +1137,16 @@ p {
   /* overflow: hidden; */
 }
 
-.h2-soc-transfor:hover .ul-soc-transform {
+.div-soc-transform {
+  transform: translate(350px);
+}
+
+.div-soc-transform:hover {
+  transform: translate(0px);
+  transition: all 2s ease;
+}
+
+.ul-soc-transform :hover {
+  transform: rotate(360deg);
+  transition: all 2s ease;
 }
