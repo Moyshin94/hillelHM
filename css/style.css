@@ -160,8 +160,13 @@ table {
   --color-border: #d8b4a0;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
 body {
-  font-family: serif;
   scroll-behavior: smooth;
   background: linear-gradient(
     to bottom,
@@ -172,40 +177,28 @@ body {
   );
 }
 
-h1,
+body .wrapper {
+  background: linear-gradient(to bottom, #002147, #28476f, #4b6c96, #7f94bd);
+  font-family: "Indie Flower", cursive;
+}
+
+body h1,
 h2,
 h3,
 h4 {
   text-align: center;
-  color: var(--color-h);
-  padding: 30px;
+  color: #ffffff;
   font-size: 60px;
-}
-
-h1 {
-  font-size: 70px;
-}
-
-h2 {
-  margin: 30px;
-  font-size: 55px;
+  margin: 20px;
 }
 
 p {
-  color: var(--color-text);
-  padding: 12px;
-  margin: 0px 300px 0px;
-
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  color: #a0a0a0;
   font-size: 24px;
   text-align: justify;
-
-  border-width: 4px;
-  border-color: var(--color-border);
-  border-radius: 16px;
-  border-style: solid;
+  border: 1px solid #ffffff;
   line-height: 40px;
+  margin: 20px 50px 20px 10px;
 }
 
 .box-lithning {
@@ -245,7 +238,8 @@ p {
 .bottom_main_page_link_list li {
   text-align: justify;
   display: inline-block;
-  outline: 6px solid var(--color-red4);
+  border: 2px dashed #a0a0a0;
+
   /* vertical-align: top; */
   font-size: 30px;
 }
@@ -812,6 +806,8 @@ p {
 /* GRID end */
 
 /* MENU */
+.wrapper_menu {
+}
 .f1-level {
   font-size: 0;
   text-align: center;
@@ -1008,7 +1004,6 @@ p {
 } */
 /* 2 ссилки с разиниим transition */
 .test9 {
-  background-color: var(--color-green1);
   padding: 100px 0;
   text-align: center;
 }
