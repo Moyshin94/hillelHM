@@ -245,11 +245,7 @@ p {
 }
 
 /* page Cristian Bale navigation */
-.wrapper_Bale h1,
-h2,
-h3,
-h4,
-p {
+.wrapper_Bale p {
   margin-left: 270px;
 }
 
@@ -818,7 +814,19 @@ p {
 .f1-level {
   font-size: 0;
   text-align: center;
+  max-width: auto;
+  margin: 0 auto;
 }
+
+.f1-level :nth-child(1) {
+  border-radius: 0 0 0 10px;
+  border-left: none;
+}
+
+.f1-level :nth-child(4) {
+  border-radius: 0 0 10px 0;
+}
+
 .f1-level li {
   display: inline-block;
   font-size: 30px;
