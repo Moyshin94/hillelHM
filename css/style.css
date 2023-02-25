@@ -245,6 +245,13 @@ p {
 }
 
 /* page Cristian Bale navigation */
+.wrapper_Bale h1,
+h2,
+h3,
+h4,
+p {
+  margin-left: 270px;
+}
 
 .navigation {
   position: fixed;
