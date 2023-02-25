@@ -163,7 +163,13 @@ table {
 body {
   font-family: serif;
   scroll-behavior: smooth;
-  background-color: var(--color-bgc5);
+  background: linear-gradient(
+    to bottom,
+    #0088cc7b,
+    #00cc888f,
+    #b75c068c,
+    #0300cc6b
+  );
 }
 
 h1,
@@ -1160,15 +1166,18 @@ p {
   transition: all 2s ease;
 }
 /* 18 GRADIENT SHADOWS START */
-body ::before {
+
+/* ver 1 */
+/* body ::before {
   content: "";
   position: fixed;
   bottom: 0;
   left: 0;
   width: 70%;
   height: 20%;
-  background-image: linear-gradient(to bottom right, #0088cc0a, #00cc8805);
+  background: linear-gradient(to bottom right, #0088cc, #00cc88);
 }
+
 body ::after {
   content: "";
   position: fixed;
@@ -1176,6 +1185,22 @@ body ::after {
   right: 0;
   width: 70%;
   height: 20%;
-  background-image: linear-gradient(to bottom right, #b75c060a, #0300cc05);
-}
+  background-image: linear-gradient(to bottom right, #b75c06fa, #0300cc);
+} */
+/* .segment {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  clip-path: polygon(
+    50% 0%,
+    100% 0%,
+    100% 100%,
+    50% 100%,
+    50% 50%,
+    calc(50% + 100px * tan(45deg)) calc(50% + 100px),
+    50% 100%
+  );
+  transform: rotate(-45deg);
+  background-color: blue;
+} */
 /* 18 GRADIENT SHADOWS END */
