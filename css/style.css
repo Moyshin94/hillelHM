@@ -160,11 +160,7 @@ table {
   --color-border: #d8b4a0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Neucha&display=swap");
 
 body {
   scroll-behavior: smooth;
@@ -179,7 +175,8 @@ body {
 
 body .wrapper {
   background: linear-gradient(to bottom, #002147, #28476f, #4b6c96, #7f94bd);
-  font-family: "Indie Flower", cursive;
+  /* font-family: "Indie Flower", cursive; */
+  font-family: "Caveat", cursive;
 }
 
 body h1,
@@ -204,10 +201,6 @@ p {
 .box-lithning {
   margin: 0 auto;
   text-align: center;
-}
-
-.conclusion {
-  font-weight: 600;
 }
 
 .ps {
@@ -816,6 +809,9 @@ p {
   text-align: center;
   max-width: auto;
   margin: 0 auto;
+  /* font-family: "Caveat", cursive; */
+  font-family: "Indie Flower", cursive;
+  font-family: "Neucha", cursive;
 }
 
 .f1-level :nth-child(1) {
